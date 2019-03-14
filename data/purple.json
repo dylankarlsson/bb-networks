@@ -1,8 +1,8 @@
-var styles = [ {
+[ {
   "format_version" : "1.0",
   "generated_by" : "cytoscape-3.7.1",
   "target_cytoscapejs_version" : "~2.1",
-  "title" : "purple",
+  "title" : "purple-transparent",
   "style" : [ {
     "selector" : "node",
     "css" : {
@@ -54,17 +54,17 @@ var styles = [ {
   }, {
     "selector" : "edge[weight = 98]",
     "css" : {
-      "opacity" : 1.031372549019608
+      "opacity" : 0.9098039215686274
     }
   }, {
     "selector" : "edge[weight > 2][weight < 98]",
     "css" : {
-      "opacity" : "mapData(weight,2,98,21,263)"
+      "opacity" : "mapData(weight,2,98,34,232)"
     }
   }, {
     "selector" : "edge[weight = 2]",
     "css" : {
-      "opacity" : 0.08235294117647059
+      "opacity" : 0.13333333333333333
     }
   }, {
     "selector" : "edge[weight < 2]",
@@ -77,4 +77,4 @@ var styles = [ {
       "line-color" : "rgb(255,0,0)"
     }
   } ]
-}
+} ]
