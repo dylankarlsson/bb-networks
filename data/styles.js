@@ -1,8 +1,8 @@
-var styles = [  {
+var styles = [ {
   "format_version" : "1.0",
   "generated_by" : "cytoscape-3.7.1",
   "target_cytoscapejs_version" : "~2.1",
-  "title" : "purple-transparent2",
+  "title" : "purple",
   "style" : [ {
     "selector" : "node",
     "css" : {
@@ -78,4 +78,3 @@ var styles = [  {
     }
   } ]
 } ]
-}
